@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mon Portfolio</title>
+    <link rel="stylesheet" href="../Style/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Mon Portfolio</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="project.html">Projets</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="contacts.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <div class="container">
+            <section class="contact-header">
+                <h1>Contactez-moi</h1>
+                <p>N'hésitez pas à me contacter pour discuter de vos projets</p>
+            </section>
+
+            <section class="contact-content">
+                <div class="contact-info">
+                    <h3>Informations de contact</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>corentin.tanguy@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>Téléphone</h4>
+                            <p>07 86 50 95 25</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Localisation</h4>
+                            <p>France</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://www.linkedin.com/in/corentin-tanguy-h9" target="_blank">Corentin TANGUY</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Envoyez-moi un message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-contact">
+                            Envoyer le message
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JS/script.js"></script>
+</body>
+</html>

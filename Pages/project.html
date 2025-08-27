@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets - Mon Portfolio</title>
+    <link rel="stylesheet" href="../Style/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Mon Portfolio</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="project.html" class="active">Projets</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="projects-page">
+        <div class="container">
+            <!-- En-tête de la page -->
+            <section class="projects-hero">
+                <h1>Mes Projets</h1>
+                <p>Découvrez une sélection de mes réalisations récentes</p>
+            </section>
+
+            <!-- Grille de projets -->
+            <section class="projects-grid">
+                <!-- Projet 1 - JardiWorld -->
+                <div class="project-card featured" data-category="game">
+                    <div class="project-image">
+                        <div class="project-icon">🌱</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>JardiWorld - Les plantes contre-attaquent</h3>
+                            <span class="project-badge">Projet Universitaire</span>
+                        </div>
+                        <p class="project-description">
+                            Jeu vidéo en tour par tour inspiré de Plants vs Zombies et Fire Emblem, 
+                            développé avec Unity pour sensibiliser à l'écologie dans un univers humoristique.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <span class="feature-icon">🏗️</span>
+                                <span>Développement de la grille de jeu</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">🤖</span>
+                                <span>Programmation IA ennemie</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">♿</span>
+                                <span>Fonctionnalités d'accessibilité</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag unity">Unity</span>
+                            <span class="tech-tag csharp">C#</span>
+                            <span class="tech-tag blender">Blender</span>
+                            <span class="tech-tag github">GitHub</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="jardiworld.html" class="btn-project btn-primary">
+                                <span>👁️</span> Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 2 - Portfolio -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-icon">💼</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Portfolio Personnel</h3>
+                            <span class="project-badge">Web</span>
+                        </div>
+                        <p class="project-description">
+                            Site portfolio moderne et responsive présentant mes compétences et projets, 
+                            avec une interface utilisateur soignée et des animations fluides.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <span class="feature-icon">📱</span>
+                                <span>Design responsive</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">✨</span>
+                                <span>Animations CSS</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">⚡</span>
+                                <span>Performance optimisée</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag html">HTML5</span>
+                            <span class="tech-tag css">CSS3</span>
+                            <span class="tech-tag js">JavaScript</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="portfolio.html" class="btn-project btn-primary">
+                                <span>👁️</span> Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 3 : Analyse Météorologique -->
+                    <div class="project-card" data-category="academic">
+                        <div class="project-image">
+                            <div class="project-icon">📊</div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Analyse Météorologique</h3>
+                                <span class="project-badge academic">Académique</span>
+                            </div>
+                            <p class="project-description">
+                                Application C++ de récupération, analyse et visualisation graphique de données 
+                                météorologiques. Projet universitaire développé en binôme avec gestion 
+                                collaborative et documentation complète.
+                            </p>
+                            <div class="project-features">
+                                <div class="feature-item">
+                                    <span class="feature-icon">🔄</span>
+                                    <span>Récupération de données</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">📈</span>
+                                    <span>Visualisation graphique</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">👥</span>
+                                    <span>Travail en équipe</span>
+                                </div>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag cpp">C++</span>
+                                <span class="tech-tag data">Data Analysis</span>
+                                <span class="tech-tag graphics">Graphics</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="weather.html" class="btn-project btn-primary">
+                                    <span>👁️</span> Voir le projet
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JS/script.js"></script>
+</body>
+</html>

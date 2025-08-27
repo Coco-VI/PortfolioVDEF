@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JardiWorld - Détails du Projet</title>
+    <link rel="stylesheet" href="../Style/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Mon Portfolio</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="project.html">Projets</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="project-detail-page">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <div class="breadcrumb">
+                <a href="project.html">← Retour aux projets</a>
+            </div>
+
+            <!-- Header du projet -->
+            <section class="project-detail-header">
+                <div class="project-badge flagship">🌟 Projet Phare</div>
+                <h1>JardiWorld – Les plantes contre-attaquent</h1>
+                <p class="project-subtitle">Projet universitaire – Développement de jeu vidéo (Unity & Blender)</p>
+                
+                <div class="project-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">🗓️ Durée</span>
+                        <span class="meta-value">6 mois</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">👥 Équipe</span>
+                        <span class="meta-value">6 développeurs</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">🎯 Type</span>
+                        <span class="meta-value">Projet universitaire</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Image/Vidéo du projet -->
+            <section class="project-media">
+                <div class="project-showcase">
+                    <div class="showcase-item active">
+                        <div class="project-image-large">
+                            🎮 JardiWorld
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Technologies -->
+            <section class="project-tech-detail">
+                <h2>Technologies utilisées</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <div class="tech-icon unity">🎮</div>
+                        <div class="tech-info">
+                            <h3>Unity</h3>
+                            <p>Moteur de jeu principal pour le développement</p>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-icon csharp">💻</div>
+                        <div class="tech-info">
+                            <h3>C#</h3>
+                            <p>Langage de programmation pour la logique du jeu</p>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-icon blender">🎨</div>
+                        <div class="tech-info">
+                            <h3>Blender</h3>
+                            <p>Modélisation 3D des assets du jeu</p>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-icon github">🔧</div>
+                        <div class="tech-info">
+                            <h3>GitHub</h3>
+                            <p>Travail collaboratif et versioning</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contenu principal -->
+            <div class="project-detail-content">
+                <!-- Contexte -->
+                <section class="project-section">
+                    <h2>🌍 Contexte du projet</h2>
+                    <div class="section-content">
+                        <p>Dans le cadre d'un projet collaboratif, notre équipe a conçu un jeu vidéo en tour par tour, inspiré de <strong>Plants vs Zombies</strong> et <strong>Fire Emblem</strong>, avec un objectif original : <strong>sensibiliser à l'écologie</strong> et aux impacts de l'activité humaine sur la biodiversité, le tout dans un univers humoristique et immersif.</p>
+                        
+                        <div class="highlight-box">
+                            <h4>🎯 Objectif pédagogique</h4>
+                            <p>Créer un jeu engageant qui sensibilise aux enjeux écologiques tout en offrant une expérience de jeu stratégique et accessible.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Mon rôle -->
+                <section class="project-section">
+                    <h2>👨‍💻 Mon rôle - Corentin Tanguy</h2>
+                    <div class="section-content">
+                        <div class="role-grid">
+                            <div class="role-item">
+                                <div class="role-icon">🏁</div>
+                                <div class="role-content">
+                                    <h3>Développement de la grille de jeu</h3>
+                                    <p>Mise en place d'un plateau type "échiquier" via la méthode <code>GenerateBoard</code>, gestion des coordonnées et notation en style échec (<code>GetChessNotation</code>).</p>
+                                </div>
+                            </div>
+                            
+                            <div class="role-item">
+                                <div class="role-icon">🤖</div>
+                                <div class="role-content">
+                                    <h3>Programmation du comportement des ennemis (IA)</h3>
+                                    <ul>
+                                        <li>Priorisation des cibles (notamment la "Golden Plant")</li>
+                                        <li>Logique d'attaque et de déplacement selon la portée</li>
+                                        <li>Système de tour alterné (joueur ↔ IA)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="role-item">
+                                <div class="role-icon">⚡</div>
+                                <div class="role-content">
+                                    <h3>Amélioration de la jouabilité</h3>
+                                    <ul>
+                                        <li>Gestion et affichage des coordonnées de cases</li>
+                                        <li>Correction de bugs liés à la synthèse vocale</li>
+                                        <li>Participation à la mise en place de l'inventaire</li>
+                                        <li>Raffinement de l'interface utilisateur (UI)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Fonctionnalités clés -->
+                <section class="project-section">
+                    <h2>✨ Fonctionnalités clés</h2>
+                    <div class="section-content">
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <h3>🎲 Gameplay stratégique</h3>
+                                <p>Système de combat au tour par tour avec gestion de la portée et positionnement tactique</p>
+                            </div>
+                            <div class="feature-card">
+                                <h3>🌱 Thématique écologique</h3>
+                                <p>Sensibilisation environnementale intégrée naturellement dans le gameplay</p>
+                            </div>
+                            <div class="feature-card">
+                                <h3>♿ Accessibilité</h3>
+                                <p>Commandes vocales et fonctionnalités d'accessibilité pour tous les joueurs</p>
+                            </div>
+                            <div class="feature-card">
+                                <h3>🤖 IA avancée</h3>
+                                <p>Intelligence artificielle sophistiquée avec priorisation des cibles</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Compétences acquises -->
+                <section class="project-section">
+                    <h2>🎓 Compétences acquises</h2>
+                    <div class="section-content">
+                        <div class="skills-acquired">
+                            <div class="skill-group">
+                                <h3>💻 Techniques</h3>
+                                <ul>
+                                    <li>Programmation en C# sous Unity</li>
+                                    <li>Développement d'IA pour jeux</li>
+                                    <li>Gestion de grille et algorithmes</li>
+                                    <li>Interactions joueur complexes</li>
+                                </ul>
+                            </div>
+                            <div class="skill-group">
+                                <h3>🤝 Collaboration</h3>
+                                <ul>
+                                    <li>Travail en équipe via GitHub</li>
+                                    <li>Gestion de projet agile</li>
+                                    <li>Communication technique</li>
+                                    <li>Résolution de conflits de code</li>
+                                </ul>
+                            </div>
+                            <div class="skill-group">
+                                <h3>🎯 Design</h3>
+                                <ul>
+                                    <li>Conception d'interfaces utilisateur</li>
+                                    <li>Prise en compte de l'accessibilité</li>
+                                    <li>Design de systèmes de jeu</li>
+                                    <li>Expérience utilisateur (UX)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Résultat -->
+                <section class="project-section">
+                    <h2>🏆 Résultat</h2>
+                    <div class="section-content">
+                        <div class="result-box">
+                            <p>Un <strong>jeu jouable</strong> mettant en avant un univers narratif fort et un gameplay stratégique accessible, avec des fonctionnalités innovantes comme la <strong>commande vocale</strong> pour l'accessibilité.</p>
+                            
+                            <div class="project-stats">
+                                <div class="stat">
+                                    <span class="stat-number">6</span>
+                                    <span class="stat-label">Développeurs</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">6</span>
+                                    <span class="stat-label">Mois</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">100%</span>
+                                    <span class="stat-label">Fonctionnel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Actions -->
+            <section class="project-actions-detail">
+                <a href="project.html" class="btn btn-secondary">← Retour aux projets</a>
+                <a href="contacts.html" class="btn btn-primary">Me contacter pour ce projet</a>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JS/script.js"></script>
+</body>
+</html>
